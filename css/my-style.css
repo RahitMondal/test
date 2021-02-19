@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #fcd34d !important;
+}
+
+.navbar a {
+  color: #444 !important;
+}
+
+.__yellow {
+  background-color: #fcd34d;
+}
+
+.__dwn-btn {
+  width: 10rem;
+}
+
+.__icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  text-align: center;
+}
+
+footer a {
+  color: #888;
+  text-decoration: underline;
+}
