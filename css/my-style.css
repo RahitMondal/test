@@ -14,10 +14,10 @@
   width: 10rem;
 }
 
-.__icon {
-  height: 3.5rem;
-  width: 3.5rem;
-  text-align: center;
+.__social-media-btns {
+  height: 3rem;
+  width: 3rem;
+  padding: 1.8rem;
 }
 
 footer a {
