@@ -1,223 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>iPhone 12</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/my-style.css" />
+    <meta charset="utf-8" />
+    <title>Problem 1 - Frontend Assignment</title>
   </head>
   <body>
-    <!--start of navbar-->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <a class="navbar-brand" href="#">New Moblie Launch</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Purchase</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--end of navbar-->
+    <h2>Employee information</h2>
 
-    <!--start of description-->
-    <div class="container">
-      <div class="row d-flex flex-row align-items-center">
-        <div class="col-md-7 py-5 text-center text-md-left">
-          <p class="h2">
-            Pretty much everything you want in a new phone.<br />No.1 selling
-            smartphone
-          </p>
-          <a
-            type="button"
-            class="btn __yellow text-white rounded-pill mt-5 font-weight-bold"
-            href="https://www.apple.com/in/shop/buy-iphone/iphone-12"
-            target="_blank"
-          >
-            Buy now for lowest price!
-          </a>
-        </div>
-        <div class="col-md-5 py-5">
-          <a href="https://www.apple.com/in/iphone-12/" target="_blank"
-            ><img
-              class="w-100"
-              src="./assets/images/iphone12.png"
-              alt="iPhone 12 image"
-              title="iPhone 12"
-          /></a>
-        </div>
-      </div>
-    </div>
-    <!--end of description-->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Employee</th>
+          <th>Position</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Alfred Sampson</td>
+          <td>Architect</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Joe Handel</td>
+          <td>Designer</td>
+          <td>Turkey</td>
+        </tr>
+        <tr>
+          <td>Ernst Young</td>
+          <td>Developer</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Helen Bennett</td>
+          <td>Techer</td>
+          <td>UK</td>
+        </tr>
+        <tr>
+          <td>Yoshi Hamada</td>
+          <td>Manager</td>
+          <td>Japan</td>
+        </tr>
+        <tr>
+          <td>Giovanni Rovelli</td>
+          <td>Chef</td>
+          <td>Italy</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <!--start of product information-->
-    <div
-      class="jumbotron-fluid __yellow d-flex flex-column align-items-center justify-content-center p-5 text-center"
-    >
-      <h1 class="text-center mt-5">
-        Download our VR store app to experience the phone.
-      </h1>
-      <p class="lead">
-        Our store's official app is available on any mobile device! Download now
-        to get started.
-      </p>
-      <div class="mb-5">
-        <a
-          class="btn p-0 __dwn-btn m-3"
-          type="button"
-          style="background-image: url(./assets/images/google_play_512x512.png)"
-          href="https://play.google.com/store"
-          target="_blank"
-        >
-        </a>
-        <a
-          class="btn p-0 __dwn-btn m-3"
-          type="button"
-          style="background-image: url(./assets/images/apple_store_512x512.png)"
-          href="https://www.apple.com/in/app-store/"
-          target="_blank"
-        >
-        </a>
-      </div>
-    </div>
-    <!--end of product information-->
+    <hr />
 
-    <!--start of bottom-part-->
-    <div id="bottom" class="container mt-5">
-      <h1 class="text-center">Latest Hardware, Unmatched Features</h1>
-      <p class="lead text-center text-secondary">
-        Check out what you can do with this phone!
-      </p>
-      <div class="row d-flex flex-row align-items-center my-5">
-        <div class="col-md-4 d-flex flex-row justify-content-center">
-          <img
-            class="w-100"
-            src="./assets/images/iphone12_solo_cropped.png"
-            alt="iPhone 12"
-            title="iPhone 12"
-          />
-        </div>
-        <div class="col-md-8 py-5 container-fluid text-center">
-          <div class="row">
-            <div
-              class="col-md-6 d-flex flex-column justify-content-center align-items-center"
-            >
-              <i class="fas fa-camera fa-3x"></i>
-              <h3>Best in Class Camera</h3>
-              <span>Night vision, tons of filters and crisper pictures</span>
-            </div>
-            <div class="col-md-6">
-              <i class="fas fa-microchip fa-3x"></i>
-              <h3>Latest Processor</h3>
-              <span>Latest processor to meet your heavy usage!</span>
-            </div>
-          </div>
-          <div class="row mt-3">
-            <div class="col-md-6">
-              <i class="fas fa-mobile-alt fa-3x"></i>
-              <h3>Stunning Display</h3>
-              <span>Display with latest technology!</span>
-            </div>
-            <div class="col-md-6">
-              <i class="fas fa-battery-three-quarters fa-3x"></i>
-              <h3>Fast Charge</h3>
-              <span>Charge faster in less time!</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--end of bottom-part-->
+    <h2>Student scores</h2>
 
-    <!--start of social media section-->
-    <div
-      class="jumbotron-fluid __yellow d-flex flex-column align-items-center justify-content-center p-5"
-    >
-      <h1 class="text-center">Follow us on</h1>
-      <div
-        class="w-100 d-flex flex-row align-items-center justify-content-center my-3"
-      >
-        <a
-          type="button"
-          class="btn __social-media-btns rounded-circle d-flex flex-column align-items-center justify-content-center mx-4"
-          style="background-color: #00acee"
-          href="https://twitter.com/iphone12models"
-          target="_blank"
-        >
-          <i class="__icon fab fa-twitter fa-2x text-white"></i>
-        </a>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Student</th>
+          <th>Subject Scores</th>
+          <th>Marks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Raj</td>
+          <td>Algebra</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Geometry</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>Physics</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td colspan="2">Total of all subjects</td>
+          <td>40</td>
+        </tr>
+      </tbody>
+    </table>
 
-        <a
-          type="button"
-          class="btn __social-media-btns rounded-circle d-flex flex-column align-items-center justify-content-center mx-4"
-          style="background-color: #3b5998"
-          href="https://www.facebook.com/Appl.iPhone12/"
-          target="_blank"
-        >
-          <i class="__icon fab fa-facebook-f fa-2x text-white"></i>
-        </a>
-        <a
-          type="button"
-          class="btn __social-media-btns rounded-circle d-flex flex-column align-items-center justify-content-center mx-4"
-          style="background-color: #ff0000"
-          href="https://www.youtube.com/watch?v=65JrtwtTOdc&ab_channel=Apple"
-          target="_blank"
-        >
-          <i class="__icon fab fa-youtube fa-2x text-white"></i>
-        </a>
-      </div>
-    </div>
-    <!--end of social media section-->
+    <hr />
 
-    <!--start of footer-->
-    <footer class="bg-dark text-center p-3" style="color: #999">
-      <p>&copy; Your website 2021. All rights reserved.</p>
-      <div
-        class="d-flex flex-row justify-content-center align-itmes-center p-0"
-      >
-        <a href="#" class="mx-4 text-reset">privacy</a>
-        <a href="#" class="mx-4 text-reset">terms</a>
-        <a href="#" class="mx-4 text-reset">FAQ</a>
-      </div>
-    </footer>
-    <!--end of footer-->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-      crossorigin="anonymous"
-    ></script>
+    <h2>Hobbies</h2>
+
+    <table border="1">
+      <tbody align="center">
+        <tr>
+          <td width="200" height="80">Indoor</td>
+          <td width="200" height="80">Chess</td>
+        </tr>
+        <tr>
+          <td width="200" height="80">Outdoor</td>
+          <td width="200" height="80">Cricket</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
