@@ -1,0 +1,43 @@
+* {
+  color: #fff;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+div,
+header {
+  display: block;
+  min-width: 60rem;
+  width: 100%;
+  margin: auto;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+header {
+  font-size: 3rem;
+}
+#clock {
+  font-size: 6rem;
+}
+#date {
+  font-size: 3.5rem;
+}
+button {
+  color: #000;
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  margin: 0 2rem;
+}
+button:hover {
+  cursor: pointer;
+}
