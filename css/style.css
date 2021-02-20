@@ -1,0 +1,68 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+#page-header {
+  color: #666;
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #444;
+  width: 60rem;
+  margin: auto;
+}
+
+#left-section {
+  border: solid 1px #ddd;
+}
+
+#left-section img {
+  height: 30rem;
+}
+
+#right-section {
+  padding: 0rem 2rem;
+}
+
+#product-category {
+  color: #888;
+}
+
+#right-section button {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.6rem 1rem;
+}
+
+.info-fields {
+  float: left;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.info-fields label {
+  float: left;
+  width: 25%;
+  font-weight: 600;
+}
+
+.info-fields div {
+  float: left;
+  width: 75%;
+}
+
+#buy-now-btn {
+  background-color: #005ce6;
+  color: #fff;
+}
+
+#add-to-cart-btn {
+  background-color: #eee;
+  border: solid 1px #ddd !important;
+  margin-left: 1rem;
+}
