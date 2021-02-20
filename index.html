@@ -2,100 +2,149 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Problem 1 - Frontend Assignment</title>
+    <title>Frontend Assigment Problem 2</title>
   </head>
   <body>
-    <h2>Employee information</h2>
+    <h2>An ordered list</h2>
 
     <table border="1">
       <thead>
         <tr>
-          <th>Employee</th>
-          <th>Position</th>
-          <th>Country</th>
+          <th>Ordered Lists - Type 1</th>
+          <th>Ordered Lists - Type 2</th>
+          <th>Ordered Lists - Type 3</th>
+          <th>Ordered Lists - Type 4</th>
+          <th>Ordered Lists - Type 5</th>
+          <th>Ordered Lists - Different start</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Alfred Sampson</td>
-          <td>Architect</td>
-          <td>Mexico</td>
-        </tr>
-        <tr>
-          <td>Joe Handel</td>
-          <td>Designer</td>
-          <td>Turkey</td>
-        </tr>
-        <tr>
-          <td>Ernst Young</td>
-          <td>Developer</td>
-          <td>Austria</td>
-        </tr>
-        <tr>
-          <td>Helen Bennett</td>
-          <td>Techer</td>
-          <td>UK</td>
-        </tr>
-        <tr>
-          <td>Yoshi Hamada</td>
-          <td>Manager</td>
-          <td>Japan</td>
-        </tr>
-        <tr>
-          <td>Giovanni Rovelli</td>
-          <td>Chef</td>
-          <td>Italy</td>
+          <td>
+            <ol>
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
+          <td>
+            <ol type="I">
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
+          <td>
+            <ol type="i">
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
+          <td>
+            <ol type="A">
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
+          <td>
+            <ol type="a">
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
+          <td>
+            <ol type="i" start="4">
+              <li>Apple</li>
+              <li>Mangoes</li>
+              <li>Oranges</li>
+              <li>Pears</li>
+            </ol>
+          </td>
         </tr>
       </tbody>
     </table>
 
-    <hr />
+    <h2>A Description List</h2>
 
-    <h2>Student scores</h2>
+    <span
+      >HTML
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- This stands for
+        Hyper Text Markup Lnaguage
+      </div></span
+    >
+    <span
+      >CSS
+      <div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- This stands for
+        Cascading Style Sheets
+      </div></span
+    >
+
+    <h2>An unordered list</h2>
 
     <table border="1">
       <thead>
         <tr>
-          <th>Student</th>
-          <th>Subject Scores</th>
-          <th>Marks</th>
+          <th>Unordered Lists - Type 1</th>
+          <th>Unordered Lists - Type 2</th>
+          <th>Unordered Lists - Type 3</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td rowspan="3">Raj</td>
-          <td>Algebra</td>
-          <td>12</td>
-        </tr>
-        <tr>
-          <td>Geometry</td>
-          <td>14</td>
-        </tr>
-        <tr>
-          <td>Physics</td>
-          <td>14</td>
-        </tr>
-        <tr>
-          <td colspan="2">Total of all subjects</td>
-          <td>40</td>
+          <td>
+            <ul>
+              <li>Spinach</li>
+              <li>Tomato</li>
+              <li>Potato</li>
+              <li>Ginger</li>
+            </ul>
+          </td>
+          <td>
+            <ul type="square">
+              <li>Spinach</li>
+              <li>Tomato</li>
+              <li>Potato</li>
+              <li>Ginger</li>
+            </ul>
+          </td>
+          <td>
+            <ul type="circle">
+              <li>Beetroot</li>
+              <li>Ginger</li>
+              <li>Potato</li>
+              <li>Radish</li>
+            </ul>
+          </td>
         </tr>
       </tbody>
     </table>
 
-    <hr />
-
-    <h2>Hobbies</h2>
+    <h2>Media elements</h2>
 
     <table border="1">
-      <tbody align="center">
+      <thead>
         <tr>
-          <td width="200" height="80">Indoor</td>
-          <td width="200" height="80">Chess</td>
+          <th>Image</th>
+          <th>Progressbar</th>
         </tr>
-        <tr>
-          <td width="200" height="80">Outdoor</td>
-          <td width="200" height="80">Cricket</td>
-        </tr>
+      </thead>
+      <tbody>
+        <td>
+          <img src="./flower.jpg" alt="flower" title="Flower" width="160" height="106" />
+        </td>
+        <td>
+          <progress value="30" max="100">
+        </td>
       </tbody>
     </table>
   </body>
