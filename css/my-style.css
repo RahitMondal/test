@@ -11,7 +11,13 @@
 }
 
 .__dwn-btn {
+  background-position: center;
+  background-size: 105%;
+  background-repeat: no-repeat;
   width: 10rem;
+  height: 3.2rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
 }
 
 .__social-media-btns {
