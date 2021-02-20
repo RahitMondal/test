@@ -4,33 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New quotes</title>
+    <title>Id card generator</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="./css/my-style.css" />
+    <link rel="stylesheet" href="./css/page-style.css" />
   </head>
   <body>
-    <div id="wrapper" class="centered">
-      <div id="text-box" class="centered">
-        <header class="text-centered">-</header>
-        <div id="quote-box">
-          <figure class="centered">
-            <blockquote id="quote-text"></blockquote>
-            <figcaption id="quote-author" style="text-align: right">
-              -
-            </figcaption>
-          </figure>
-          <button id="btn">New Quote</button>
+    <div id="main">
+      <header
+        style="
+          background-color: #4047f0;
+          color: #fff;
+          text-align: center;
+          padding: 1rem;
+          font-weight: 600;
+          font-size: 1.5rem;
+        "
+      >
+        ID Card Generator
+      </header>
+      <div id="input-section">
+        <form style="width: 80%">
+          <header style="color: #4047f0; font-size: 1.1rem; font-weight: 500">
+            Enter student details
+          </header>
+          <label for="">Enter name:</label>
+          <div class="input-wrapper">
+            <i class="fas fa-user"></i><input type="text" required />
+          </div>
+          <label for="">Enter college name:</label>
+          <div class="input-wrapper">
+            <i class="fas fa-university"></i><input type="text" required />
+          </div>
+          <label for="">Enter location:</label>
+          <div class="input-wrapper">
+            <i class="fas fa-map-marker-alt"></i><input type="text" required />
+          </div>
+          <label for="">Enter student's picture:</label>
+          <input type="file" accept="image/*" required />
+          <div id="img-preview-box">
+            <!-- <img id="img-preview" src="" alt="" /> this will be inserted in choosing the image-->
+            No image choosen
+          </div>
+          <input type="submit" value="Generate Card" />
+        </form>
+      </div>
+      <div id="output-section">
+        <div id="empty-card" style="color: #888">
+          Use the given form to generate the ID card
         </div>
+        <!-- <h1>Generated ID Card</h1>
+        <div id="card">
+          <div id="card-left">
+            <img
+              src="https://blog.photofeeler.com/wp-content/uploads/2017/09/tinder-photo-size-tinder-picture-size-tinder-aspect-ratio-image-dimensions-crop.jpg"
+              alt=""
+              id="profile-pic"
+            />
+          </div>
+          <div id="card-right">
+            <div><span class="grey-bold">Name:</span> Student-name</div>
+            <div><span class="grey-bold">College Name:</span> College-name</div>
+            <div><span class="grey-bold">Location:</span> Location-name</div>
+          </div>
+        </div> -->
       </div>
     </div>
-    <script src="./javascript/myScript.js"></script>
+    <script src="./javascript/pageScript.js"></script>
   </body>
 </html>
