@@ -4,14 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Digital clock</title>
+    <title>New quotes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/my-style.css" />
   </head>
   <body>
-    <header>Digital Clock</header>
-    <div id="clock">hh : mm : ss</div>
-    <div id="date">dd / mm / yyyy</div>
-    <div><button id="start">Start</button><button id="stop">Stop</button></div>
-    <script src="./javascript/clockScript.js"></script>
+    <div id="wrapper" class="centered">
+      <div id="text-box" class="centered">
+        <header class="text-centered">-</header>
+        <div id="quote-box">
+          <figure class="centered">
+            <blockquote id="quote-text"></blockquote>
+            <figcaption id="quote-author" style="text-align: right">
+              -
+            </figcaption>
+          </figure>
+          <button id="btn">New Quote</button>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/myScript.js"></script>
   </body>
 </html>
